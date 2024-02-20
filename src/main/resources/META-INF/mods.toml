@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="copier"
+version="1.0.0"
+displayName="复印机"
+displayURL="https://superlinkstudio.top"
+credits="本模组由SuperLinkStudio的开发者杨柳WillowTree基于MCreator开发"
+authors="SuperLinkStudio"
+
+[[dependencies.copier]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

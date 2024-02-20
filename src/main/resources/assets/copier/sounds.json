@@ -1,0 +1,10 @@
+{
+  "copier_print": {
+    "sounds": [
+      {
+        "name": "copier:copier_print",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "mod_elements": [
+    {
+      "name": "Copier",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/copier/block/entity/CopierBlockEntity.java",
+          "src/main/resources/assets/copier/blockstates/copier.json",
+          "src/main/java/net/mcreator/copier/block/CopierBlock.java",
+          "src/main/resources/assets/copier/models/block/copier.json",
+          "src/main/resources/assets/copier/models/item/copier.json"
+        ]
+      }
+    },
+    {
+      "name": "CopierUI",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copier_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/copier/world/inventory/CopierUIMenu.java",
+          "src/main/java/net/mcreator/copier/client/gui/CopierUIScreen.java",
+          "src/main/java/net/mcreator/copier/network/CopierUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "CopierRun",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copier_run",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/copier/procedures/CopierRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopierOriginal",
+      "type": "tag",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copier_original",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/copier_original.json"
+        ]
+      }
+    },
+    {
+      "name": "CopierPhotocopy",
+      "type": "tag",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copier_photocopy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/copier_photocopy.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "copier_print",
+      "files": [
+        "copier_print"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.copier_print": "",
+      "block.copier.copier": "复印机",
+      "gui.copier.copier_ui.button_fu_yin": "复印",
+      "gui.copier.copier_ui.CopyNumber": "0",
+      "gui.copier.copier_ui.label_fu_yin_ji": "复印机",
+      "gui.copier.copier_ui.label_fu_yin_fen_shu": "复印份数",
+      "gui.copier.copier_ui.button_da_yin": "打印"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "copier",
+    "modName": "复印机",
+    "version": "1.0.0",
+    "author": "SuperLinkStudio",
+    "websiteURL": "https://superlinkstudio.top",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "本模组由SuperLinkStudio的开发者杨柳WillowTree基于MCreator开发",
+    "modElementsPackage": "net.mcreator.copier",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
