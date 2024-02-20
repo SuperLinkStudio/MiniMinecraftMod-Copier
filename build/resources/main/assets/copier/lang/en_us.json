@@ -1,0 +1,9 @@
+{
+  "subtitles.copier_print": "",
+  "block.copier.copier": "复印机",
+  "gui.copier.copier_ui.button_fu_yin": "复印",
+  "gui.copier.copier_ui.CopyNumber": "0",
+  "gui.copier.copier_ui.label_fu_yin_ji": "复印机",
+  "gui.copier.copier_ui.label_fu_yin_fen_shu": "复印份数",
+  "gui.copier.copier_ui.button_da_yin": "打印"
+}

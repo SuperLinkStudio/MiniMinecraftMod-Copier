@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "copier:block/copier_bottom",
+    "up": "copier:block/copier_bottom",
+    "north": "copier:block/copier_interface",
+    "east": "copier:block/copier_around",
+    "south": "copier:block/copier_around",
+    "west": "copier:block/copier_around",
+    "particle": "copier:block/copier_bottom"
+  },
+  "render_type": "solid"
+}
