@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.WRITABLE_BOOK"
+      },
+      {
+        "value": "Items.WRITTEN_BOOK"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "copier_original",
+    "namespace": "forge"
+  }
+}
